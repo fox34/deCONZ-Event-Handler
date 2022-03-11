@@ -1,0 +1,14 @@
+[Unit]
+Description=Zigbee Lichtsteuerung via deCONZ
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/lichtsteuerung/app.py
+GuessMainPID=no
+Type=exec
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target

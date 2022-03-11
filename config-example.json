@@ -1,0 +1,8 @@
+{
+  "deCONZ": {
+    "host": "127.0.0.1",
+    "RESTPort": 80,
+    "websocketPort": 8181,
+    "username": "FFEEDDCCBB"
+  }
+}
